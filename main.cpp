@@ -78,7 +78,6 @@ void read_png_file(char* file_name) {
     }
 
     png_read_image(png_ptr, row_pointers);
-    png_destroy_read_struct(&png_ptr, &info_ptr, nullptr);
     fclose(file_ptr);
 }
 
@@ -180,9 +179,13 @@ int main(int argc, char* argv[]) {
         abort_("usage: program_name <file_in> <file_out>");
     }
     read_png_file(argv[1]);
+
     grayscale();
     invert();
 
+    // we need read struct for do image processing.
+    png_destroy_read_struct(&png_ptr, &info_ptr, nullptr);
     write_png_file(argv[2]);
+
     return 0;
 }

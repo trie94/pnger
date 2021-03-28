@@ -9,7 +9,7 @@
             "type": "cppdbg",
             "request": "launch",
             "program": "${fileDirname}/${fileBasenameNoExtension}",
-            "args": ["/Users/JoTrie/Desktop/code-sketches/Screen Shot 2019-11-30 at 18.06.28.png"],
+            "args": ["/Users/JoTrie/Desktop/170413pf.png", "/Users/JoTrie/Desktop/test.png"],
             "stopAtEntry": false,
             "cwd": "${workspaceFolder}",
             "environment": [],

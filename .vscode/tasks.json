@@ -12,7 +12,8 @@
                 "-L",
                 "/usr/local/lib",
                 "-l",
-                "png"
+                "png",
+                "-std=c++11"
             ],
             "options": {
                 "cwd": "${workspaceFolder}"

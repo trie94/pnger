@@ -21,9 +21,6 @@ int main(int argc, char* argv[]) {
     ImageInfo image_info = image_loader.read_png_file(argv[1]);
     image_processor.grayscale(image_info);
     image_processor.invert(image_info);
-    
-    // we need read struct for do image processing.
-    png_destroy_read_struct(&image_info.png_ptr, &image_info.info_ptr, nullptr);
     image_writer.write_png_file(image_info, argv[2]);
 
     return 0;

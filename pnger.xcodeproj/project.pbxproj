@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		8474DE9826111652004B97BA /* imageWriter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8474DE9626111651004B97BA /* imageWriter.cpp */; };
+		8474DE9D26112CCA004B97BA /* imageInfo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8474DE9C26112CCA004B97BA /* imageInfo.cpp */; };
 		84D68E9926100B90001C5881 /* imageLoader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 84D68E9226100B90001C5881 /* imageLoader.cpp */; };
 		84D68E9B26100B90001C5881 /* imageProcessor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 84D68E9626100B90001C5881 /* imageProcessor.cpp */; };
 		84D68EA026100C09001C5881 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 84D68E9F26100C09001C5881 /* main.cpp */; };
@@ -29,6 +30,7 @@
 /* Begin PBXFileReference section */
 		8474DE9626111651004B97BA /* imageWriter.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = imageWriter.cpp; sourceTree = "<group>"; };
 		8474DE9A2611166F004B97BA /* imageWriter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = imageWriter.h; sourceTree = "<group>"; };
+		8474DE9C26112CCA004B97BA /* imageInfo.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = imageInfo.cpp; sourceTree = "<group>"; };
 		84D68E8726100B54001C5881 /* pnger */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = pnger; sourceTree = BUILT_PRODUCTS_DIR; };
 		84D68E9226100B90001C5881 /* imageLoader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = imageLoader.cpp; sourceTree = "<group>"; };
 		84D68E9326100B90001C5881 /* imageProcessor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = imageProcessor.h; sourceTree = "<group>"; };
@@ -82,6 +84,7 @@
 				84D68EA626100F05001C5881 /* utils.cpp */,
 				8474DE9626111651004B97BA /* imageWriter.cpp */,
 				8474DE9A2611166F004B97BA /* imageWriter.h */,
+				8474DE9C26112CCA004B97BA /* imageInfo.cpp */,
 			);
 			path = pnger;
 			sourceTree = "<group>";
@@ -143,6 +146,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				84D68E9926100B90001C5881 /* imageLoader.cpp in Sources */,
+				8474DE9D26112CCA004B97BA /* imageInfo.cpp in Sources */,
 				84D68E9B26100B90001C5881 /* imageProcessor.cpp in Sources */,
 				84D68EA026100C09001C5881 /* main.cpp in Sources */,
 				8474DE9826111652004B97BA /* imageWriter.cpp in Sources */,
